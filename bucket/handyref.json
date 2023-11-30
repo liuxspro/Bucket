@@ -1,0 +1,22 @@
+{
+    "version": "20230616.1914.VBA",
+    "description": "为Word和WPS提供一个快速添加交叉引用的方式",
+    "homepage": "https://github.com/shishouyuan/HandyRefVBA",
+    "license": "Unknown",
+    "url": "https://github.com/shishouyuan/HandyRefVBA/releases/download/v20230616.1914/HandyRef-Chinese.dotm",
+    "hash": "d2798eda2e4500a33142b7082ab2f6f9a58a7836dd49c4e44119a15c2ac5502e",
+    "pre_install": [
+        "$startupDirectory = Join-Path -Path $env:AppData -ChildPath \"\\Microsoft\\Word\\STARTUP\"",
+        "if (-not (Test-Path -Path $startupDirectory)) {",
+        "    New-Item -Path $startupDirectory -ItemType Directory",
+        "    Write-Host \"已创建目录: $startupDirectory\"",
+        "}",
+        "Copy-Item \"$dir\\HandyRef-Chinese.dotm\" \"$startupDirectory\\HandyRef-Chinese.dotm\""
+    ],
+    "post_uninstall": [
+        "$startupDirectory = Join-Path -Path $env:AppData -ChildPath \"\\Microsoft\\Word\\STARTUP\"",
+        "$filePath = Join-Path -Path $startupDirectory -ChildPath \"HandyRef-Chinese.dotm\"",
+        "Remove-Item -Path $filePath",
+        "Write-Host \"已删除: $filePath\""
+    ]
+}
