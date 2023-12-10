@@ -1,0 +1,9 @@
+{
+    "version": "0.4.1",
+    "description": "简单易用的图片压缩软件",
+    "homepage": "https://tuya.xinxiao.tech/",
+    "license": "Unknown",
+    "url": "https://drive.liuxs.pro/api/raw/?path=/Scoop/%E5%9B%BE%E5%8E%8B/tuya_0.4.1.7z",
+    "hash": "e34cac24f599c378d022c7f812097add64c2eed28e6d9b067e83da606a99ca91",
+    "shortcuts": [["图压.exe", "图压"]]
+}

@@ -1,0 +1,9 @@
+{
+    "version": "0.2.2-alpha",
+    "description": "Wallpaper engine PKG unpacker/TEX converter, written in C#.",
+    "homepage": "https://github.com/notscuffed/repkg",
+    "license": "MIT",
+    "url": "https://github.com/notscuffed/repkg/releases/download/v0.2.2-alpha/RePKG.zip",
+    "hash": "2D7463F92D42EC966556E9EA4D6E3AB50B25BA75C69A29A92614EFEF8F44CBDD",
+    "bin": "RePKG.exe"
+}
