@@ -1,0 +1,10 @@
+{
+    "version": "3.6.3",
+    "description": "多平台hosts修改",
+    "homepage": "https://www.dogfight360.com/blog/475/",
+    "license": "Unknown",
+    "url": "https://drive.liuxs.pro/api/raw/?path=/Scoop/UsbEAm%20Hosts%20Editor/UsbEAm%20Hosts%20Editor%20v3.6.3.7z",
+    "hash": "fbf946195a38e88fe33244563e87f338d3c3c15b1a0729612522e3ef6a08cc78",
+    "bin":[["UsbEAm Hosts Editor v3.63.exe","usbeam"]],
+    "shortcuts": [["UsbEAm Hosts Editor v3.63.exe", "UsbEAm Hosts Editor"]]
+}
