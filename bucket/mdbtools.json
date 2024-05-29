@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "description": "MDB Tools - Read Access databases on *nix",
+    "homepage": "https://github.com/mdbtools/mdbtools",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/liuxsdev/mdbtools-win-build-action/releases/download/v1.0.0/mdbtools-build-win-ucrt64.zip",
+    "hash": "e37cd342077fe6a9c66f73c6a268aed2ecf8cb884644816245826fe62dedfd2c",
+    "bin": [
+        "mdb-array.exe",
+        "mdb-count.exe",
+        "mdb-export.exe",
+        "mdb-header.exe",
+        "mdb-import.exe",
+        "mdb-json.exe",
+        "mdb-parsecsv.exe",
+        "mdb-prop.exe",
+        "mdb-queries.exe",
+        "mdb-schema.exe",
+        "mdb-sql.exe",
+        "mdb-tables.exe",
+        "mdb-ver.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/liuxsdev/mdbtools-win-build-action"
+    },
+    "autoupdate": {
+        "url": "https://github.com/liuxsdev/mdbtools-win-build-action/releases/download/v$version/mdbtools-build-win-ucrt64.zip.zip"
+    }
+}
