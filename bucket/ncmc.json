@@ -1,10 +1,10 @@
 {
-    "version": "0.2.9",
+    "version": "0.2.11",
     "description": "convert encrypted file to original music file",
     "homepage": "https://github.com/magic-akari/ncmc",
     "license": "MIT",
-    "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.9/ncmc-x86_64-pc-windows-msvc.zip",
-    "hash": "7AC5AE8A563D99018C4976CA0D1647683225F36CC1EAFCA590E5F413C9AD6DDF",
+    "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-x86_64-pc-windows-msvc.zip",
+    "hash": "0b87b96219e344c1db09ed4cc921a180e7084177b9dd55580b995358fc631e5b",
     "bin": "ncmc.exe",
     "checkver": {
         "github": "https://github.com/magic-akari/ncmc"
