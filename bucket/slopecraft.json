@@ -1,11 +1,11 @@
 {
-    "version": "5.2.2",
+    "version": "5.3.3",
     "description": "SlopeCraft 是一款基于 Qt + Eigen + zlib 开发的，用于在 Minecraft 中生成立体地图画的软件。",
     "homepage": "https://slopecraft.readthedocs.io",
     "license": "GNU General Public License v3.0",
-    "url": "https://github.com/SlopeCraft/SlopeCraft/releases/download/v5.2.2/SlopeCraft-5.2.2-win64.zip",
-    "extract_dir": "SlopeCraft-5.2.2-win64",
-    "hash": "2f1086db56ed3b3b02eef72e69f614b302b5a99d5b231126ddda5387b5ce16d0",
+    "url": "https://github.com/SlopeCraft/SlopeCraft/releases/download/v5.3.3/SlopeCraft-5.3.3-win64.zip",
+    "extract_dir": "SlopeCraft-5.3.3-win64",
+    "hash": "85e7aab4a83279e237f0af3f82706b680419cb028b9999c3c82676f79d0552a6",
     "shortcuts": [
         [
             "SlopeCraft.exe",
